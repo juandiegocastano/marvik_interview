@@ -34,6 +34,9 @@ async def get_date(include_time: bool):
     - dict: A dictionary containing the formatted date.
 
     """
+    global counter 
+    counter += 1
+    
     current_date = datetime.now()
     if include_time:
         formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
@@ -41,3 +44,10 @@ async def get_date(include_time: bool):
         formatted_date = current_date.strftime("%Y-%d-%m")
 
     return {"date": formatted_date}
+
+@app.get("/counter/")
+async def get_counter():
+    """
+    Get the current value of the counter.
+    """
+    return {"counter": counter}
