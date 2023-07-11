@@ -7,3 +7,6 @@
 ## How to run?
 1. ` docker compose up -d --build`
 2. Go to https://127.0.0.1:8000/docs and try it out!
+
+## Used resources:
+- This code was build using this blog: https://testdriven.io/blog/fastapi-docker-traefik/ 
