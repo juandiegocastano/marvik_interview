@@ -1,5 +1,7 @@
 # Marvik technical assement question
 
+## Please visit for [Implementation details here](https://dear-zipper-81f.notion.site/Marvik-techincal-challenge-89cf0a3dd61c44c2bedb92055c12b78d)
+
 ## Install prerequisites:
 - Docker. Version 24.0.2
 - Docker Compose version v2.19.1
